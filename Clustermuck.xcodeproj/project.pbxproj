@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D138BA48808DFDB713A5CCA5 /* Pods_Clustermuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A70AE9B0EFC655F1FD21A20 /* Pods_Clustermuck.framework */; };
+		DDBE907E1DECADB30024227B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE907D1DECADB30024227B /* AppDelegate.swift */; };
+		DDBE90801DECADB30024227B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE907F1DECADB30024227B /* ViewController.swift */; };
+		DDBE90831DECADB30024227B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE90811DECADB30024227B /* Main.storyboard */; };
+		DDBE90851DECADB30024227B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBE90841DECADB30024227B /* Assets.xcassets */; };
+		DDBE90881DECADB30024227B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE90861DECADB30024227B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A70AE9B0EFC655F1FD21A20 /* Pods_Clustermuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clustermuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		677C73AB75486E3020DF77BC /* Pods-Clustermuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clustermuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clustermuck/Pods-Clustermuck.debug.xcconfig"; sourceTree = "<group>"; };
+		69E7BBE8C96B64C93021536B /* Pods-Clustermuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clustermuck.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clustermuck/Pods-Clustermuck.release.xcconfig"; sourceTree = "<group>"; };
+		DDBE907A1DECADB30024227B /* Clustermuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clustermuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBE907D1DECADB30024227B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDBE907F1DECADB30024227B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDBE90821DECADB30024227B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDBE90841DECADB30024227B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBE90871DECADB30024227B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDBE90891DECADB30024227B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBE90771DECADB30024227B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D138BA48808DFDB713A5CCA5 /* Pods_Clustermuck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D496DF1EE7693E16A18387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A70AE9B0EFC655F1FD21A20 /* Pods_Clustermuck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926755254201B34BE3AB9563 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				677C73AB75486E3020DF77BC /* Pods-Clustermuck.debug.xcconfig */,
+				69E7BBE8C96B64C93021536B /* Pods-Clustermuck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDBE90711DECADB30024227B = {
+			isa = PBXGroup;
+			children = (
+				DDBE907C1DECADB30024227B /* Clustermuck */,
+				DDBE907B1DECADB30024227B /* Products */,
+				926755254201B34BE3AB9563 /* Pods */,
+				50D496DF1EE7693E16A18387 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBE907B1DECADB30024227B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE907A1DECADB30024227B /* Clustermuck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBE907C1DECADB30024227B /* Clustermuck */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE907D1DECADB30024227B /* AppDelegate.swift */,
+				DDBE907F1DECADB30024227B /* ViewController.swift */,
+				DDBE90811DECADB30024227B /* Main.storyboard */,
+				DDBE90841DECADB30024227B /* Assets.xcassets */,
+				DDBE90861DECADB30024227B /* LaunchScreen.storyboard */,
+				DDBE90891DECADB30024227B /* Info.plist */,
+			);
+			path = Clustermuck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBE90791DECADB30024227B /* Clustermuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBE908C1DECADB30024227B /* Build configuration list for PBXNativeTarget "Clustermuck" */;
+			buildPhases = (
+				E7EBE3358BF122CA478D59B5 /* [CP] Check Pods Manifest.lock */,
+				DDBE90761DECADB30024227B /* Sources */,
+				DDBE90771DECADB30024227B /* Frameworks */,
+				DDBE90781DECADB30024227B /* Resources */,
+				2500E8343337C1003D77872D /* [CP] Embed Pods Frameworks */,
+				DF336B3F1FB040AF0F7CB06D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clustermuck;
+			productName = Clustermuck;
+			productReference = DDBE907A1DECADB30024227B /* Clustermuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBE90721DECADB30024227B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mapbox;
+				TargetAttributes = {
+					DDBE90791DECADB30024227B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GJZR2MEM28;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDBE90751DECADB30024227B /* Build configuration list for PBXProject "Clustermuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBE90711DECADB30024227B;
+			productRefGroup = DDBE907B1DECADB30024227B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBE90791DECADB30024227B /* Clustermuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBE90781DECADB30024227B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBE90881DECADB30024227B /* LaunchScreen.storyboard in Resources */,
+				DDBE90851DECADB30024227B /* Assets.xcassets in Resources */,
+				DDBE90831DECADB30024227B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2500E8343337C1003D77872D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clustermuck/Pods-Clustermuck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF336B3F1FB040AF0F7CB06D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clustermuck/Pods-Clustermuck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EBE3358BF122CA478D59B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBE90761DECADB30024227B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBE90801DECADB30024227B /* ViewController.swift in Sources */,
+				DDBE907E1DECADB30024227B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDBE90811DECADB30024227B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBE90821DECADB30024227B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDBE90861DECADB30024227B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBE90871DECADB30024227B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBE908A1DECADB30024227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBE908B1DECADB30024227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBE908D1DECADB30024227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677C73AB75486E3020DF77BC /* Pods-Clustermuck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = Clustermuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.Clustermuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDBE908E1DECADB30024227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E7BBE8C96B64C93021536B /* Pods-Clustermuck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = Clustermuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.Clustermuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBE90751DECADB30024227B /* Build configuration list for PBXProject "Clustermuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBE908A1DECADB30024227B /* Debug */,
+				DDBE908B1DECADB30024227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBE908C1DECADB30024227B /* Build configuration list for PBXNativeTarget "Clustermuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBE908D1DECADB30024227B /* Debug */,
+				DDBE908E1DECADB30024227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBE90721DECADB30024227B /* Project object */;
+}
